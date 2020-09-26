@@ -17,5 +17,8 @@
     "bugs": {
         "url": "https://github.com/kbrus87/kbrus87/issues"
     },
-    "homepage": "https://github.com/kbrus87/kbrus87#readme"
+    "homepage": "https://github.com/kbrus87/kbrus87#readme",
+    "dependencies": {
+        "node-fetch": "^2.6.1"
+    }
 }

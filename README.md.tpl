@@ -14,5 +14,7 @@ const Bruno = {
 
 [![Kbrus87 github stats](https://github-readme-stats.vercel.app/api?username=kbrus87)](https://github.com/anuraghazra/github-readme-stats)
 
+In case you were wondering how's the weather in Rosario in this lovely %date%, here is a summary
+Sky: %SKY%
+Temperature: %TEMP%
 
-Today is: %date%
