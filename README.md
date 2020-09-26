@@ -5,13 +5,12 @@ const Bruno = {
   pronouns: "he" | "his",
   code: [Javascript, HTML, CSS],
   tools: [React, Node, Styled-Components ],
+  location: 'Rosario, Santa Fe, Argentina'
 }
 ```
 📫 You can reach me at: bjramariutn@hotmail.com <br>
 🌱 I’m currently learning Next.js <br>
-
-
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/600px-Instagram_logo_2016.svg.png" height="15px" /> Instagram](https://instagram.com/kbrus87)
+⚡ Fun fact: I can actually play guitar! [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/600px-Instagram_logo_2016.svg.png" height="15px" target=blank/> Check it Out!](https://www.instagram.com/p/BX12qjplm1Z/?utm_source=ig_web_copy_link)<br>
 
 [![Kbrus87 github stats](https://github-readme-stats.vercel.app/api?username=kbrus87)](https://github.com/anuraghazra/github-readme-stats)
 <!--
