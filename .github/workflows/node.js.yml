@@ -16,6 +16,7 @@ jobs:
         node-version: ['12', '14']
 
     steps:
+    - name: Use Node.js ${{ matrix.node-version }}
     - uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
@@ -28,6 +29,6 @@ jobs:
         git add README.md
         git commit -m "Update README"
         git push origin master
-    - name: Use Node.js ${{ matrix.node-version }}
+    
     
  
