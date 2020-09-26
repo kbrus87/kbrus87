@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs').promises;
 const fetch = require('node-fetch');
 
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -14,7 +14,7 @@ const getWeatherDate = async() => {
 }
 
 //INSTAGRAM FUNCTIONS
-/*
+
 const INSTAGRAM_REGEXP = new RegExp(
     /<script type="text\/javascript">window\._sharedData = (.*);<\/script>/
 );
@@ -34,18 +34,18 @@ const getPhotosFromInstagram = async() => {
 const generateInstagramHTML = ({ media_url, permalink }) => `
 <a href='${permalink}' target='_blank'>
   <img width='20%' src='${media_url}' alt='Instagram photo' />
-</a>`;*/
+</a>`;
 
 
 (async() => {
     const markdownTemplate = await fs.readFile('./README.md.tpl', { encoding: 'utf-8' })
     const { temp, sky } = await getWeatherDate();
 
-    /* const photos = await getPhotosFromInstagram();
-     const latestInstagramPhotos = photos
-         .slice(0, 4)
-         .map(generateInstagramHTML)
-         .join("");*/
+    const photos = await getPhotosFromInstagram();
+    const latestInstagramPhotos = photos
+        .slice(0, 4)
+        .map(generateInstagramHTML)
+        .join("");
 
 
     const date = new Date();
