@@ -1,0 +1,21 @@
+{
+    "name": "kbrus87",
+    "version": "1.0.0",
+    "description": "Readme Bruno Ramari",
+    "main": "index.js",
+    "scripts": {
+        "update-readme": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kbrus87/kbrus87.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kbrus87/kbrus87/issues"
+    },
+    "homepage": "https://github.com/kbrus87/kbrus87#readme"
+}
