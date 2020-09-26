@@ -56,7 +56,7 @@ const generateInstagramHTML = ({ media_url, permalink }) => `
         .replace('%LATEST_INSTAGRAM', latestInstagramPhotos);
 
     //writes readme with changes
-    await fs.writeFile('../README.md', newMarkdown);
+    await fs.writeFile('./README.md', newMarkdown);
 
 
 })();
