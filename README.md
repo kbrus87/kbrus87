@@ -22,9 +22,7 @@ In case you were wondering how's the weather in Rosario in this lovely Saturday 
             align-items:center;
             padding:10px;
             border-radius:5px;
-            color:white;
-            
-            ">The Sky: Clouds  <img src="http://openweathermap.org/img/wn/04d@2x.png" /> </div> <br>
+            color:white;">The Sky: Clouds  <img src="http://openweathermap.org/img/wn/04d@2x.png" /> </div> <br>
 <div style="
             background-color:red;
             display:flex;
@@ -32,7 +30,5 @@ In case you were wondering how's the weather in Rosario in this lovely Saturday 
             align-items:center;
             padding:10px;
             border-radius:5px;
-            color:white;
-            
-            ">Temperature: 24.55 °C</div>
+            color:white;">Temperature: 24.55 °C</div>
 
