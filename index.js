@@ -15,7 +15,7 @@ const INSTAGRAM_REGEXP = new RegExp(
     /<script type="text\/javascript">window\._sharedData = (.*);<\/script>/
 );
 const getPhotosFromInstagram = async() => {
-    const res = await fetch('https://www.instagram.com/bruno.j87')
+    const res = await fetch(`https://www.instagram.com/bruno.j87/`);
 
     const text = await res.text();
     const json = JSON.parse(text.match(INSTAGRAM_REGEXP)[1]);
