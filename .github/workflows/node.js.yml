@@ -22,6 +22,7 @@ jobs:
       with:
         node-version: '12'
     - run: npm install
+    - run: npm test
     - run: npm run update-readme
     - run: |
         git config user.name kbrus87
