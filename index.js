@@ -1,4 +1,4 @@
-import { promises as fs } from "fs";
+const fs = require('fs').promises;
 const fetch = require('node-fetch');
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];;
@@ -11,6 +11,8 @@ const getWeatherDate = async() => {
 
     return { temp, sky }
 }
+
+//INSTAGRAM FUNCTIONS
 const INSTAGRAM_REGEXP = new RegExp(
     /<script type="text\/javascript">window\._sharedData = (.*);<\/script>/
 );
