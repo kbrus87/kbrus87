@@ -14,5 +14,7 @@ const Bruno = {
 
 [![Kbrus87 github stats](https://github-readme-stats.vercel.app/api?username=kbrus87)](https://github.com/anuraghazra/github-readme-stats)
 
+In case you were wondering how's the weather in Rosario in this lovely Saturday 26 of September, here is a summary <br>
+The Sky: Clouds  <img src="http://openweathermap.org/img/wn/04d@2x.png" /> <br>
+Temperature: 24.55 °C
 
-Today is: Sat Sep 26 2020 20:59:51 GMT+0000 (Coordinated Universal Time)
