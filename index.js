@@ -9,4 +9,4 @@ const fs = require('fs').promises
 
     //writes readme with changes
     await fs.writeFile('./README.md', markdownTemplate);
-})()
+})();
