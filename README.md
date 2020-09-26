@@ -1,4 +1,4 @@
-### Hi, I'm Bruno ! 👋🐱‍👤👨
+### <h2 align="center"> Hi, I'm Bruno ! 👋🐱‍👤👨</h2>
 
 ```javascript
 const Bruno = {
@@ -7,9 +7,11 @@ const Bruno = {
   tools: [React, Node, Styled-Components ],
 }
 ```
-📫 You can reach me at: bjramariutn@hotmail.com
+📫 You can reach me at: bjramariutn@hotmail.com <br>
+🌱 I’m currently learning Next.js <br>
 
-[📷 Instagram](https://instagram.com/kbrus87)
+
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/600px-Instagram_logo_2016.svg.png" height="15px" /> Instagram](https://instagram.com/kbrus87)
 
 [![Kbrus87 github stats](https://github-readme-stats.vercel.app/api?username=kbrus87)](https://github.com/anuraghazra/github-readme-stats)
 <!--
