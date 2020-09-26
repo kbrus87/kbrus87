@@ -13,6 +13,8 @@ const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
 
             return { temp, sky }
         }
+
+        //INSTAGRAM
         const getPhotosFromInstagram = async() => {
             const res = await fetch('https://www.instagram.com/bruno.j87')
             const text = await res.text();
@@ -35,7 +37,7 @@ const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
     <img width='20%' src='${media_url}' alt='Instagram photo' />
     </a>`;
 
-    const latestInstagramPhotos = getPhotosFromInstagram()
+    const latestInstagramPhotos = await getPhotosFromInstagram()
         .slice(0, 4)
         .map(generateInstagramHTML)
         .join("");
