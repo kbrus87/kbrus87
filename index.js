@@ -38,7 +38,7 @@ const generateInstagramHTML = ({ media_url, permalink }) => `
     const markdownTemplate = await fs.readFile('./README.md.tpl', { encoding: 'utf-8' })
     const { temp, sky } = await getWeatherDate();
 
-    const photos = getPhotosFromInstagram();
+    const photos = await getPhotosFromInstagram();
     const latestInstagramPhotos = photos
         .slice(0, 4)
         .map(generateInstagramHTML)
