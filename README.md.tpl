@@ -18,3 +18,5 @@ In case you were wondering how's the weather in Rosario in this lovely %date%, h
 <div>The Sky: %SKY% </div> <br>
 <div>Temperature: %TEMP%</div>
 
+LATEST_INSTAGRAM
+
