@@ -1,4 +1,4 @@
-const fs = require('fs').promises;
+const fs = require('fs');
 const fetch = require('node-fetch');
 
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
