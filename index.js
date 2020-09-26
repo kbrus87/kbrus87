@@ -50,7 +50,7 @@ const generateInstagramHTML = ({ media_url, permalink }) => `
         .replace('%date%', `${days[date.getDay()]} ${date.getDate()} of ${months[date.getMonth()]} at ${date.getHours}`)
         .replace('%SKY%', `${sky}`)
         .replace('%TEMP%', `${temp}`)
-        .replace('LATEST_INSTAGRAM', latestInstagramPhotos);
+        .replace('%LATEST_INSTAGRAM', latestInstagramPhotos);
 
     //writes readme with changes
     await fs.writeFile('./README.md', newMarkdown);
