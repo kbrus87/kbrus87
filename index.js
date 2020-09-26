@@ -47,7 +47,7 @@ const generateInstagramHTML = ({ media_url, permalink }) => `
 
     const date = new Date();
     newMarkdown = markdownTemplate
-        .replace('%date%', `${days[date.getDay()]} ${date.getDate()} of ${months[date.getMonth()]}`)
+        .replace('%date%', `${days[date.getDay()]} ${date.getDate()} of ${months[date.getMonth()]} at ${date.getHours}`)
         .replace('%SKY%', `${sky}`)
         .replace('%TEMP%', `${temp}`)
         .replace('LATEST_INSTAGRAM', latestInstagramPhotos);
