@@ -22,9 +22,7 @@ In case you were wondering how's the weather in Rosario in this lovely %date%, h
             align-items:center;
             padding:10px;
             border-radius:5px;
-            color:white;
-            
-            ">The Sky: %SKY% </div> <br>
+            color:white;">The Sky: %SKY% </div> <br>
 <div style="
             background-color:red;
             display:flex;
@@ -32,7 +30,5 @@ In case you were wondering how's the weather in Rosario in this lovely %date%, h
             align-items:center;
             padding:10px;
             border-radius:5px;
-            color:white;
-            
-            ">Temperature: %TEMP%</div>
+            color:white;">Temperature: %TEMP%</div>
 
