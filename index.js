@@ -1,4 +1,4 @@
-const fs = require('fs').promises;
+import { promises as fs } from "fs";
 const fetch = require('node-fetch');
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];;
@@ -16,7 +16,6 @@ const INSTAGRAM_REGEXP = new RegExp(
 );
 const getPhotosFromInstagram = async() => {
     const res = await fetch(`https://www.instagram.com/bruno.j87/`);
-
     const text = await res.text();
     const json = JSON.parse(text.match(INSTAGRAM_REGEXP)[1]);
     const edges = json.entry_data.ProfilePage[0].graphql.user.edge_owner_to_timeline_media.edges.splice(
