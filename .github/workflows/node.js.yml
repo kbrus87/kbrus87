@@ -16,7 +16,11 @@ jobs:
         node-version: ['12', '14']
 
     steps:
+<<<<<<< HEAD
     - uses: actions/checkout@v2
+=======
+    - name: Use Node.js ${{ matrix.node-version }}
+>>>>>>> 7de96a3d44261eed8f5969d61eb73a24d328b04b
     - uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
@@ -28,7 +32,11 @@ jobs:
         git config user.email kbruskbrus@gmail.com
         git add README.md
         git commit -m "Update README"
+<<<<<<< HEAD
         git push 
+=======
+        git push origin master
+>>>>>>> 7de96a3d44261eed8f5969d61eb73a24d328b04b
     
     
  
