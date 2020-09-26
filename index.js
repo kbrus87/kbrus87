@@ -7,7 +7,7 @@ const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
 const getWeatherDate = async() => {
     let res = await fetch('http://api.openweathermap.org/data/2.5/weather?q=rosario&appid=45b2fa569efdc7a2702c344b9da9d776');
     let data = await res.json()
-    let sky = await `${data.weather[0].main}  <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" />`;
+    let sky = await `${data.weather[0].main}  <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}.png" />`;
     let temp = await `${(data.main.temp - 273.15).toFixed(2)} °C`;
 
     return { temp, sky }

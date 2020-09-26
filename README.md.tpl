@@ -20,5 +20,4 @@ In case you were wondering how's the weather in Rosario in this lovely %date%, h
 
 ###
 
-%LATEST_INSTAGRAM
 
