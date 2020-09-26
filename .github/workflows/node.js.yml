@@ -27,7 +27,7 @@ jobs:
         git config user.email kbruskbrus@gmail.com
         git add README.md
         git commit -m "Update README"
-        git push origin master
+        git push 
     - name: Use Node.js ${{ matrix.node-version }}
     
  
