@@ -18,6 +18,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - run:|
+        git config user.name kbrus87
+        git config user.email kbruskbrus@gmail.com
+        git add README.md
+        git commit -m "Update README"
+        git push origin master
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
