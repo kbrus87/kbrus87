@@ -16,7 +16,7 @@ const Bruno = {
 
 In case you were wondering how's the weather in Rosario in this lovely Sunday 27 of September, here is a summary <br>
 <div>The Sky: Drizzle  <img src="http://openweathermap.org/img/wn/09n.png" /> </div> <br>
-<div>Temperature: 18.10 °C</div>
+<div>Temperature: 16.29 °C</div>
 
 ###
 
