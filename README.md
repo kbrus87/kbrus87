@@ -16,7 +16,7 @@ const Bruno = {
 
 *In case you were wondering how's the weather in Rosario in this lovely Tuesday 20 of October, here is a summary* <br>
 * <div>The Sky: Rain  <img src="http://openweathermap.org/img/wn/10n.png" /> </div> <br>
-* **<div>Temperature: 19.72 °C</div>**
+* **<div>Temperature: 16.89 °C</div>**
 
 ###
 
