@@ -16,7 +16,7 @@ const Bruno = {
 
 *In case you were wondering how's the weather in Rosario in this lovely Monday 2 of November, here is a summary* <br>
 * <div>The Sky: Clear  <img src="http://openweathermap.org/img/wn/01d.png" /> </div> <br>
-* **<div>Temperature: 19.58 °C</div>**
+* **<div>Temperature: 27.88 °C</div>**
 
 ###
 
