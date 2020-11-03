@@ -15,8 +15,8 @@ const Bruno = {
 [![Kbrus87 github stats](https://github-readme-stats.vercel.app/api?username=kbrus87)](https://github.com/anuraghazra/github-readme-stats)
 
 *In case you were wondering how's the weather in Rosario in this lovely Tuesday 3 of November, here is a summary* <br>
-* <div>The Sky: Clear  <img src="http://openweathermap.org/img/wn/01n.png" /> </div> <br>
-* **<div>Temperature: 16.29 °C</div>**
+* <div>The Sky: Clear  <img src="http://openweathermap.org/img/wn/01d.png" /> </div> <br>
+* **<div>Temperature: 18.76 °C</div>**
 
 ###
 
