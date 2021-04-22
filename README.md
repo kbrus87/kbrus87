@@ -13,9 +13,9 @@ const Bruno = {
 
 [![Kbrus87 github stats](https://github-readme-stats.vercel.app/api?username=kbrus87)](https://github.com/anuraghazra/github-readme-stats)
 
-*In case you were wondering how's the weather in Rosario in this lovely Wednesday 21 of April, here is a summary* <br>
-* <div>The Sky: Rain  <img src="http://openweathermap.org/img/wn/10d.png" /> </div> <br>
-* **<div>Temperature: 21.23 °C</div>**
+*In case you were wondering how's the weather in Rosario in this lovely Thursday 22 of April, here is a summary* <br>
+* <div>The Sky: Clear  <img src="http://openweathermap.org/img/wn/01n.png" /> </div> <br>
+* **<div>Temperature: 18.38 °C</div>**
 
 ###
 
