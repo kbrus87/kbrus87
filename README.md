@@ -2,8 +2,8 @@
 
 ```javascript
 const Bruno = {
-  code: [Javascript, HTML, CSS],
-  tools: [React, Node, Styled-Components, GIT (obviously), Bootstrap ],
+  code: [C++, Javascript, HTML, CSS],
+  tools: [React, Node, GIT (obviously), JUCE  ],
   location: 'Rosario, Santa Fe, Argentina'
 }
 ```
